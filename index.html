@@ -3,83 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Ntandu Company - Products</title>
-    <script src="https://www.paypal.com/sdk/js?client-id=BAAykEEL0h6giq3dTca4mfiXLaLCrx3x_ipkyBx7U7a3s0ePvZtaFmdbEW-G2d-XvcSPena45mPOoXuNw4&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
-    <script src="https://commerce.coinbase.com/v1/checkout.js"></script>
+    <title>The Ntandu Company LLC</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100px;
+        }
+        .banner {
+            width: 100%;
             max-width: 1200px;
             margin: 0 auto;
+        }
+        .container {
             padding: 20px;
         }
-        .product-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 20px;
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .product-card {
-            border: 1px solid #ddd;
-            padding: 15px;
-            text-align: center;
+        .product img {
+            max-width: 100%;
+            height: auto;
         }
         .payment-buttons {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            margin-top: 15px;
+            margin-top: 10px;
+        }
+        .payment-buttons a {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .payment-buttons a:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <h1>The Ntandu Company - Products</h1>
-    <div class="product-grid">
-        <div class="product-card">
-            <h2>Product 1</h2>
-            <p>Description of Product 1</p>
+    <header>
+        <img src="https://github.com/mbeti-one/The-Ntandu-Company-L-L-C/blob/main/Welcome%20to%20Site%20Banner..jpg?raw=true" alt="Welcome Banner" class="banner">
+        <img src="https://github.com/mbeti-one/The-Ntandu-Company-L-L-C/blob/main/The%20Ntandu%20Company%20LLC%20logo.jpg?raw=true" alt="Company Logo" class="logo">
+    </header>
+    <div class="container">
+        <div class="product">
+            <h2>Butane Stoves - $35 PER Unit</h2>
+            <img src="https://github.com/mbeti-one/The-Ntandu-Company-L-L-C/blob/main/Gas%20One%20Butane%20Gas%20Stove%20with%204%20Fuel%20Canister%20Catridges%201.jpg?raw=true" alt="Butane Stove">
+            <p>Package weight: 3 lbs. 5 oz.</p>
+            <p>Package dimensions: 13 in. wide x 10.5 in. length x 3 in. height</p>
             <div class="payment-buttons">
+                <a href="https://commerce.coinbase.com/checkout/6d1762bf-c57f-40b1-b1d1-772142fbf562">Buy with Coinbase</a>
                 <div id="paypal-container-ZBQ8323ECLZJ6"></div>
-                <a href="https://commerce.coinbase.com/checkout/6d1762bf-c57f-40b1-b1d1-772142fbf562" target="_blank">Pay with Crypto</a>
             </div>
         </div>
 
-        <div class="product-card">
-            <h2>Product 2</h2>
-            <p>Description of Product 2</p>
+        <div class="product">
+            <h2>Butane Cartridges - $10 per 4 pack</h2>
+            <img src="https://github.com/mbeti-one/The-Ntandu-Company-L-L-C/blob/main/8%20oz.%20Butane%20Fuel%20Canister%20Cartridges.jpg?raw=true" alt="Butane Cartridges">
+            <p>Also available:</p>
+            <ul>
+                <li>$15 per 8 pack</li>
+                <li>$25 per 12 pack</li>
+            </ul>
             <div class="payment-buttons">
-                <div id="paypal-container-product2"></div>
-                <a href="https://commerce.coinbase.com/checkout/6a93aa10-643c-493f-ab77-40da92c05f45" target="_blank">Pay with Crypto</a>
+                <a href="https://commerce.coinbase.com/checkout/6a93aa10-643c-493f-ab77-40da92c05f45">Buy with Coinbase</a>
+                <div id="paypal-container-ZBQ8323ECLZJ6"></div>
             </div>
         </div>
 
-        <div class="product-card">
-            <h2>Product 3</h2>
-            <p>Description of Product 3</p>
+        <div class="product">
+            <h2>Crates - $10 plus shipping & handling</h2>
             <div class="payment-buttons">
-                <div id="paypal-container-product3"></div>
-                <a href="https://commerce.coinbase.com/checkout/f67e280d-5bf7-455f-9eb9-f1f5e56f0459" target="_blank">Pay with Crypto</a>
+                <a href="https://commerce.coinbase.com/checkout/f67e280d-5bf7-455f-9eb9-f1f5e56f0459">Buy with Coinbase</a>
+                <div id="paypal-container-ZBQ8323ECLZJ6"></div>
             </div>
         </div>
 
-        <div class="product-card">
-            <h2>Product 4</h2>
-            <p>Description of Product 4</p>
+        <div class="product">
+            <h2>TikTok & CapCut APK - $100</h2>
+            <p>App install files for Android OS</p>
             <div class="payment-buttons">
-                <div id="paypal-container-product4"></div>
-                <a href="https://commerce.coinbase.com/checkout/61f09915-74ad-4fd5-875d-9200d9b65bcf" target="_blank">Pay with Crypto</a>
+                <a href="https://commerce.coinbase.com/checkout/61f09915-74ad-4fd5-875d-9200d9b65bcf">Buy with Coinbase</a>
+                <div id="paypal-container-ZBQ8323ECLZJ6"></div>
             </div>
         </div>
 
-        <div class="product-card">
-            <h2>Product 5</h2>
-            <p>Description of Product 5</p>
+        <div class="product">
+            <h2>Bluetooth Earphones - $18</h2>
             <div class="payment-buttons">
-                <div id="paypal-container-product5"></div>
-                <a href="https://commerce.coinbase.com/checkout/a49edc74-6e64-4c68-95ff-aa5f5573cbb0" target="_blank">Pay with Crypto</a>
+                <a href="https://commerce.coinbase.com/checkout/a49edc74-6e64-4c68-95ff-aa5f5573cbb0">Buy with Coinbase</a>
+                <div id="paypal-container-ZBQ8323ECLZJ6"></div>
+            </div>
+        </div>
+
+        <div class="product">
+            <h2>Wired Earphones - $12</h2>
+            <div class="payment-buttons">
+                <a href="https://commerce.coinbase.com/checkout/61f09915-74ad-4fd5-875d-9200d9b65bcf">Buy with Coinbase</a>
+                <div id="paypal-container-ZBQ8323ECLZJ6"></div>
+            </div>
+        </div>
+
+        <div class="product">
+            <h2>Phone Charger - $10</h2>
+            <div class="payment-buttons">
+                <a href="https://commerce.coinbase.com/checkout/a49edc74-6e64-4c68-95ff-aa5f5573cbb0">Buy with Coinbase</a>
+                <div id="paypal-container-ZBQ8323ECLZJ6"></div>
+            </div>
+        </div>
+
+        <div class="product">
+            <h2>Phone Cables - $3</h2>
+            <div class="payment-buttons">
+                <a href="https://commerce.coinbase.com/checkout/61f09915-74ad-4fd5-875d-9200d9b65bcf">Buy with Coinbase</a>
+                <div id="paypal-container-ZBQ8323ECLZJ6"></div>
+            </div>
+        </div>
+
+        <div class="product">
+            <h2>Shades - $5</h2>
+            <div class="payment-buttons">
+                <a href="https://commerce.coinbase.com/checkout/a49edc74-6e64-4c68-95ff-aa5f5573cbb0">Buy with Coinbase</a>
+                <div id="paypal-container-ZBQ8323ECLZJ6"></div>
+            </div>
+        </div>
+
+        <div class="product">
+            <h2>Science Fiction & Fantasy Ebook Library - Coming Soon</h2>
+        </div>
+
+        <div class="product">
+            <h2>Film Library</h2>
+            <p>Access my Google Drive folder for films.</p>
+        </div>
+
+        <div class="product">
+            <h2>TV Shows Library</h2>
+            <p>Access my Google Drive folder for TV shows.</p>
+        </div>
+
+        <div class="product">
+            <h2>Music Video Library</h2>
+            <p>Access my Google Drive folder for music videos.</p>
+        </div>
+
+        <div class="product">
+            <h2>Music Playlists and Library</h2>
+            <p>Access my Google Drive folder for music.</p>
+        </div>
+
+        <div class="product">
+            <h2>DVD 4GB - $10 per disk</h2>
+            <div class="payment-buttons">
+                <a href="https://commerce.coinbase.com/checkout/a49edc74-6e64-4c68-95ff-aa5f5573cbb0">Buy with Coinbase</a>
+                <div id="paypal-container-ZBQ8323ECLZJ6"></div>
+            </div>
+        </div>
+
+        <div class="product">
+            <h2>CD 700MB - $10 per disk</h2>
+            <div class="payment-buttons">
+                <a href="https://commerce.coinbase.com/checkout/61f09915-74ad-4fd5-875d-9200d9b65bcf">Buy with Coinbase</a>
+                <div id="paypal-container-ZBQ8323ECLZJ6"></div>
+            </div>
+        </div>
+
+        <div class="product">
+            <h2>Zip Drive 4GB - $20 per drive</h2>
+            <div class="payment-buttons">
+                <a href="https://commerce.coinbase.com/checkout/a49edc74-6e64-4c68-95ff-aa5f5573cbb0">Buy with Coinbase</a>
+                <div id="paypal-container-ZBQ8323ECLZJ6"></div>
+            </div>
+        </div>
+
+        <div class="product">
+            <h2>SD Card 32GB - $50 per card</h2>
+            <div class="payment-buttons">
+                <a href="https://commerce.coinbase.com/checkout/61f09915-74ad-4fd5-875d-9200d9b65bcf">Buy with Coinbase</a>
+                <div id="paypal-container-ZBQ8323ECLZJ6"></div>
             </div>
         </div>
     </div>
 
+    <script src="https://www.paypal.com/sdk/js?client-id=BAAykEEL0h6giq3dTca4mfiXLaLCrx3x_ipkyBx7U7a3s0ePvZtaFmdbEW-G2d-XvcSPena45mPOoXuNw4&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
     <script>
         paypal.HostedButtons({
             hostedButtonId: "ZBQ8323ECLZJ6",
@@ -87,6 +212,3 @@
     </script>
 </body>
 </html>
-Last edited 8 minutes ago
-
-
